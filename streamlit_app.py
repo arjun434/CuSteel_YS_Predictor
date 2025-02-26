@@ -68,3 +68,8 @@ if st.button("🔍 Predict Yield Strength"):
     
     # Display result with formatting
     st.success(f"✅ Predicted Yield Strength (YS): {prediction[0]:.2f} MPa")
+# Footer
+st.markdown("""
+    ---
+    ### Created and Developed by Arjun Rai
+""")
