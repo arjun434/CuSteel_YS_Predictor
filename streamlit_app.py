@@ -70,6 +70,8 @@ if st.button("🔍 Predict Yield Strength"):
     st.success(f"✅ Predicted Yield Strength (YS): {prediction[0]:.2f} MPa")
 # Footer
 st.markdown("""
-    ---
-    ### Created and Developed by Arjun Rai
-""")
+    <hr>
+    <div class='footer'>
+        <b>🚀 Created and Developed by Arjun Rai</b>
+    </div>
+""", unsafe_allow_html=True)
